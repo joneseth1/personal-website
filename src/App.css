@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+body{
+    background-color:#5D2EC1;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior:smooth;
+    margin: 0%;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#hero-header{
+   
+    position: absolute;
+    max-width: 340px;
+    height: 232px;
+    left: 139px;
+    top: 280px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: uppercase;
+
+    color: Black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#hero-description{
+    position: absolute;
+    max-width: 235px;
+    height: 46px;
+    left: 150px;
+    top: 512px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    color: Black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+
+
+
+
+
+.about-container {
+    width: 100%;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content:flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+#about-header {
+    order: 1;
+    position: absolute right;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: uppercase;
+    color: #f7ecec;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about-picture {
+    order: -1;
+    position: absolute left;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: uppercase;
+    color: #f7ecec;
 }
+
+#about-description{
+    order: 2;
+    width: 650px;
+    position: absolute right;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #f7ecec;
+}
+
+
+
+
+
+
+
+
+#banner-wrapper{
+    background-color: #f7ecec;
+    padding-left: 50%;
+    height: 750px;
+    
+}
+
+#about-picture{
+    background-color:#5D2EC1;
+    height: 800px;
+    width: 50%;
+}
+
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave{
+    background-image: url('./images/background.svg');
+}
+   
+
+
+
+
+
