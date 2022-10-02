@@ -1,9 +1,9 @@
 body{
-    background-color:#5D2EC1;
+    background-color:#f7ecec;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
     scroll-behavior:smooth;
-    margin: 0%;
+    margin: 0 auto;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -11,11 +11,9 @@ body{
 
 #hero-header{
    
-    position: absolute;
-    max-width: 340px;
-    height: 232px;
-    left: 139px;
-    top: 280px;
+    position: relative;
+    padding-left: 1rem;
+    top: 22rem;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -28,11 +26,10 @@ body{
 }
 
 #hero-description{
-    position: absolute;
-    max-width: 235px;
-    height: 46px;
-    left: 150px;
-    top: 512px;
+    position: relative;
+    padding-left: 1rem;
+    top: 22.5rem;
+
 
     font-family: 'Raleway';
     font-style: normal;
@@ -44,85 +41,18 @@ body{
     color: Black;
 }
 
-
-
-
-
-
-
-
-
-.about-container {
-    width: 100%;
-    display: flex; 
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-}
-
-#about-header {
-    order: 1;
-    position: absolute right;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 113px;
-    text-transform: uppercase;
-    color: #f7ecec;
-}
-
-#about-picture {
-    order: -1;
-    position: absolute left;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 113px;
-    text-transform: uppercase;
-    color: #f7ecec;
-}
-
-#about-description{
-    order: 2;
-    width: 650px;
-    position: absolute right;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #f7ecec;
-}
-
-
-
-
-
-
-
-
-#banner-wrapper{
+.banner-wrapper{
     background-color: #f7ecec;
     padding-left: 50%;
-    height: 750px;
-    
+    height: 600px;
 }
 
-#about-picture{
-    background-color:#5D2EC1;
-    height: 800px;
-    width: 50%;
+.morph-ball {
+    display: block;
 }
 
 .spacer{
-    aspect-ratio: 960/300;
+    aspect-ratio: 960/400;
     width: 100%;
     background-repeat:no-repeat;
     background-position: center;
@@ -130,9 +60,16 @@ body{
 }
 
 .wave{
-    background-image: url('./images/background.svg');
+    background-image: url('./images/wave900.svg');
+    display: block; 
 }
    
+@media (max-width:1150px ) {
+    .morph-ball {
+        display: none;
+    }
+    
+}
 
 
 
