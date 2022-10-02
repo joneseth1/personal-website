@@ -16,7 +16,7 @@ export default function App() {
           Seth Jones
         </div>
         <div id='hero-description'>
-          Computer Science Undergrad Professional Cyclist
+          Computer Science Undergrad
         </div>
         <div id='banner-wrapper'>
             <Canvas>
