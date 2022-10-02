@@ -1,6 +1,6 @@
 import React, { useRef, Suspense } from 'react';
 import { Canvas } from 'react-three-fiber';
-import { FlyControls, OrbitControls, PerspectiveCamera} from '@react-three/drei'
+import { FlyControls, OrbitControls, PerspectiveCamera, Stars, Text} from '@react-three/drei'
 import Sphere from './components/AnimatedSphere';
 
 import './app.css'
@@ -35,10 +35,22 @@ export default function App() {
         </div>
       </div>
 
+     <div className='mid-site'>
 
+     </div>
 
      <div className='spacer wave'> </div>
+     <div className='cushion'> </div>
 
+    <div className='about'> 
+      <Canvas>
+        <Text fontSize={5}>  test </Text>
+        <OrbitControls enableZoom={false} enableDamping={true} target={[0,0,0]} enablePan={true} autoRotate={false} />
+        <Suspense fallback={null}>
+          <Stars/>
+        </Suspense>
+      </Canvas> 
+    </div>
 
     </div>
   )
