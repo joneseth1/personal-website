@@ -1,6 +1,6 @@
 import React, { useRef, Suspense } from 'react';
 import { Canvas } from 'react-three-fiber';
-import { FlyControls, OrbitControls, PerspectiveCamera, Stars, Text} from '@react-three/drei'
+import { FlyControls, OrbitControls, PerspectiveCamera, Stars, Text, Text3D} from '@react-three/drei'
 import Sphere from './components/AnimatedSphere';
 
 import './app.css'
@@ -10,6 +10,23 @@ import { Camera } from 'three';
 export default function App() {
   return (
     <div>
+      <div class="navbar">
+        <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+         
+          <div class="menu-items">
+            <li><a href="#" className='fa fa-facebook fa-xs'></a></li>
+            <li><a href="#" className='fa fa-github'></a></li> 
+          </div>
+        </div>
+      </div>
+      
+
 
 
       <div className='hero-wrapper'>
@@ -35,23 +52,29 @@ export default function App() {
         </div>
       </div>
 
-     <div className='mid-site'>
+    
+    <div className='bottom-site'>
+      <div className='spacer wave'> </div>
+      <div className='cushion'> </div>
 
-     </div>
+        <div className='about'> 
+          <div className='table'>
+          <h1>About me</h1>
 
-     <div className='spacer wave'> </div>
-     <div className='cushion'> </div>
-
-    <div className='about'> 
-      <Canvas>
-        <Text fontSize={5}>  test </Text>
-        <OrbitControls enableZoom={false} enableDamping={true} target={[0,0,0]} enablePan={true} autoRotate={false} />
-        <Suspense fallback={null}>
-          <Stars/>
-        </Suspense>
-      </Canvas> 
-    </div>
-
+          <p>I am a current Computer Science and History undergrad at the University of North Carolina, Charlotte (UNCC). I am also a current professional cyclist for the Serbian based 
+            Ferei CCN-Metalac UCI Continental team and I am a coach at Ignition Coach Co.</p>
+            <p>I was born in San Luis Obispo, California but quickly moved to Mooresville, North Carolina. It was in Mooresville that I found my passion for cycling and computers.
+            I became a professional cyclist when I was 18 and I started school at UNCC that same year. Since then I have traveled to Asia Minor, Europe and South America to race my bike,
+            all while pursuing a B.A. in History and a B.S. in Computer Science with a concentration in Data Science . As a Professional Cyclist, 
+            I have come to know explicitly that the quantity and quality of my work directly affects my outcome. 
+            I chase opportunities to learn and do so quickly. 
+            I have a deep passion for computers and software and I am looking for any opportunity to learn more about them!  
+          </p>
+          </div>
+            <div className='img-div'></div>
+        </div>
+          
+        </div>
     </div>
   )
 }
