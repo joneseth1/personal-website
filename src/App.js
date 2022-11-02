@@ -9,26 +9,7 @@ import { Camera } from 'three';
 
 export default function App() {
   return (
-    <div>
-      <div class="navbar">
-        <div class="container nav-container">
-            <input class="checkbox" type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>  
-         
-          <div class="menu-items">
-            <li><a href="#" className='fa fa-facebook fa-xs'></a></li>
-            <li><a href="#" className='fa fa-github'></a></li> 
-          </div>
-        </div>
-      </div>
-      
-
-
-
+    <div>      
       <div className='hero-wrapper'>
         <div id='hero-header'> 
           Seth Jones
@@ -60,6 +41,7 @@ export default function App() {
         <div className='about'> 
           <div className='table'>
           <h1>About me</h1>
+          
 
           <p>I am a current Computer Science and History undergrad at the University of North Carolina, Charlotte (UNCC). I am also a current professional cyclist for the Serbian based 
             Ferei CCN-Metalac UCI Continental team and I am a coach at Ignition Coach Co.</p>
@@ -73,6 +55,21 @@ export default function App() {
           </div>
             <div className='img-div'></div>
         </div>
+
+        <div className='connect'>
+          <h1> Connect with me </h1>
+          <a href="#" className="social-icons">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="#" className="social-icons">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+
+        </div>
+
+
+
+        <div className='bottom'> </div>
           
         </div>
     </div>
