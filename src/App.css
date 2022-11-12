@@ -1,132 +1,122 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color:#f7ecec;
-    background-size: cover;
-    font-family: 'Raleway', sans-serif;
-    scroll-behavior:smooth;
-    margin: 0 auto;
+body {
+  background-color:#f7ecec;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior:smooth;
+  margin: 0 auto;
 }
 
-h1{
+h1 {
   padding-bottom: 1.2rem;
 }
 
-h2 {
+h1 {
   padding-top: 2rem;
   padding-bottom: 0.9rem;
 }
 
-h3{
+h3 {
   padding-top: 1rem;
   padding-bottom: 0.3rem;
   font-weight: 700;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-#hero-header{
-   
-    position: relative;
-    padding-left: 2rem;
-    top: 22rem;
+#hero-header {
+  position: relative;
+  padding-left: 2rem;
+  top: 22rem;
 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 113px;
-    text-transform: uppercase;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 113px;
+  text-transform: uppercase;
 
-    color: Black;
+  color: Black;
 }
 
-#hero-description{
-    position: relative;
-    padding-left: 2rem;
-    top: 22.5rem;
+#hero-description {
+  position: relative;
+  padding-left: 2rem;
+  top: 22.5rem;
 
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-transform: uppercase;
-
-    color: Black;
+  color: Black;
 }
 
-.banner-wrapper{
-    background-color: #f7ecec;
-    padding-left: 50%;
-    height: 600px;
+.banner-wrapper {
+  background-color: #f7ecec;
+  padding-left: 50%;
+  height: 600px;
 }
 
 .morph-ball {
-    display: block;
+  display: block;
 }
 
-.spacer{
-    aspect-ratio: 960/400;
-    width: 100%;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: cover;
+.spacer {
+  aspect-ratio: 960/400;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.wave{
-    background-image: url('./images/waves.svg');
-    display: block; 
+.wave {
+  background-image: url('./images/waves.svg');
+  display: block; 
 }
 
 .cushion { 
-    background-color: rgb(115, 36, 234);
-    height: 50px;
+  background-color: rgb(115, 36, 234);
+  height: 50px;
 }
 
 .about {
-    position: relative;
-    padding-left: 7rem;
-    background-color: rgb(115, 36, 234);
-    height: 700px;
+  position: relative;
+  padding-left: 7rem;
+  background-color: rgb(115, 36, 234);
+  height: 700px;
 }
    
-.table-div {
-    background-color:rgb(115, 36, 234);
-    position: relative;
-    padding-top: 100px;
-    padding-left: 2rem;
-}
-
 .table {
-    position: relative;
-    padding:1.2rem 1.2rem 1.2rem 1.2rem;
-    top: 15rem;
-    line-height: .6cm;
-
-    background-color: #dcbafb;
-    margin: 25px 0px; 
-    font-size: 1em;
-    width: 650px;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgb(0, 0, 0.15);
-    border-radius: 10px/10px;
-}
-.courses{
   position: relative;
-  padding:1.2rem 1.2rem 1.2rem 1.2rem;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  top: 15rem;
+  line-height: 0.6cm;
+
+  background-color: #dcbafb;
+  margin: 25px 0px; 
+  font-size: 1em;
+  width: 650px;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.15);
+  border-radius: 10px/10px;
+}
+
+.courses {
+  position: relative;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   top: 3rem;
   left: 7rem;
-  line-height: .6cm;
-
-  
+  line-height: 0.6cm;
   
   background-color: #dcbafb;
   margin: 25px 0px; 
@@ -137,14 +127,13 @@ h3{
   border-radius: 10px/10px;
 }
 
-.connect{
+.connect {
   position: relative;
-  padding:1.2rem 1.2rem 1.2rem 1.2rem;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   bottom: 35rem;
   left: 75rem;
-  line-height: .6cm;
+  line-height: 0.6cm;
   text-align: center;
-  
   
   background-color: #dcbafb;
   margin: 25px 0px; 
@@ -153,29 +142,33 @@ h3{
   min-width: 300px;
   box-shadow: 0 0 20px rgb(0, 0, 0.15);
   border-radius: 10px/10px;
-
 }
 
-.bottom-site {
-    background-color: rgb(115, 36, 234);
+#main {
+  background-color: rgb(115, 36, 234);
 }
+
 .img-div {
-    position: relative;
-    left: 60rem;
-    bottom: 15rem;
+  position: relative;
+  left: 60rem;
+  bottom: 15rem;
 
-    width:500px;
-    height:500px;
-    background-image: url("/src/images/IMG-8967.jpg");
-    border-radius: 50%;
-    background-size: cover;
+  width:500px;
+  height:500px;
+  background-image: url("/src/images/IMG-8967.jpg");
+  border-radius: 50%;
+  background-size: cover;
 }
 
+.bottom {
+  background-color: rgb(115, 36, 234);
+  height: 15rem;
+}
 
 
 /* Scoial Media Icons */
 
-.social-icons{
+.social-icons {
   font-size: 86px;
   color:rgba(18, 91, 248, 0.667);
   transition: 0.2s;
@@ -188,26 +181,20 @@ h3{
 }
 
 
-.bottom{
-  background-color: rgb(115, 36, 234);
-  height: 15rem;
-}
-/* Media changes */
 
-@media (max-width:1150px ) {
-  .morph-ball {
-      display: none;
-  }
-}
+/* Media changes */
 
 @media (max-width:1500px ) {
   .img-div {
     position: relative;
     left: 55rem;
     bottom: 15rem;
+
+    width: 420px;
+    height: 420px;
   }
 
-  .connect{
+  .connect {
     position: relative;
     left: 65rem;
     bottom: 35rem;
@@ -221,7 +208,7 @@ h3{
     bottom: 15rem;
   }
 
-  .connect{
+  .connect {
     position: relative;
     left: 60rem;
     bottom: 35rem;
@@ -236,18 +223,27 @@ h3{
     width: 420px;
     height: 420px;
   }
-  .connect{
+
+  .connect {
     position: relative;
     left: 55rem;
     bottom: 40rem;
   }
-  .table{
+
+  .table {
     width: 550px;
     min-width: 400px;
   }
-  .courses{
+
+  .courses {
     width: 550px;
     min-width: 400px;
+  }
+}
+
+@media (max-width:1150px ) {
+  .morph-ball {
+    display: none;
   }
 }
 
@@ -260,14 +256,16 @@ h3{
     width: 420px;
     height: 420px;
   }
-  .connect{
+
+  .connect {
     position: relative;
     left: 20rem;
     top: 50rem;
     width: 450px;
     min-width: 400px;
   }
-  .table{
+
+  .table {
     position: relative;
     left: 13rem;
     top: 40rem;
@@ -275,7 +273,8 @@ h3{
     width: 450px;
     min-width: 400px;
   }
-  .courses{
+
+  .courses {
     position: relative;
     left: 20rem;
     top: 40rem;
@@ -284,7 +283,7 @@ h3{
     min-width: 400px;
   }
 
-  .bottom{
+  .bottom {
     height: 60rem;
   }
 }
@@ -298,14 +297,16 @@ h3{
     width: 420px;
     height: 420px;
   }
-  .connect{
+
+  .connect {
     position: relative;
     left: 20rem;
     top: 50rem;
     width: 450px;
     min-width: 400px;
   }
-  .table{
+
+  .table {
     position: relative;
     left: 13rem;
     top: 40rem;
@@ -313,7 +314,8 @@ h3{
     width: 450px;
     min-width: 400px;
   }
-  .courses{
+
+  .courses {
     left: 20rem;
     top: 40rem;
 
@@ -321,7 +323,7 @@ h3{
     min-width: 400px;
   }
 
-  .bottom{
+  .bottom {
     height: 60rem;
   }
 }
@@ -335,14 +337,16 @@ h3{
     width: 420px;
     height: 420px;
   }
-  .connect{
+
+  .connect {
     position: relative;
     left: 13rem;
     top: 50rem;
     width: 450px;
     min-width: 400px;
   }
-  .table{
+
+  .table {
     position: relative;
     left: 7rem;
     top: 40rem;
@@ -350,7 +354,8 @@ h3{
     width: 450px;
     min-width: 400px;
   }
-  .courses{
+
+  .courses {
     position: relative;
     left: 13rem;
     top: 40rem;
@@ -359,7 +364,7 @@ h3{
     min-width: 400px;
   }
 
-  .bottom{
+  .bottom {
     height: 60rem;
   }
 }
@@ -373,9 +378,10 @@ h3{
     width: 250px;
     height: 250px;
   }
-  .connect{
+
+  .connect {
     position: relative;
-    padding:1.2rem 1.2rem 1.2rem 1.2rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
     left: -4rem;
     bottom: 30rem;
     left: 3rem;
@@ -383,20 +389,22 @@ h3{
     width: 300px;
     min-width: 300px;
   }
-  .social-icons{
+
+  .social-icons {
     font-size: 64px;
     color:rgba(18, 91, 248, 0.667);
     transition: 0.2s;
     text-decoration: none;
     margin: 20px;
   }
-  .table{
+
+  .table {
     position: relative;
-    padding:1.2rem 1.2rem 1.2rem 1.2rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
     left: -4rem;
     bottom: 30rem;
     top: 25rem;
-    line-height: .6cm;
+    line-height: 0.6cm;
 
     background-color: #dcbafb;
     margin: 25px 0px; 
@@ -406,24 +414,26 @@ h3{
     box-shadow: 0 0 20px rgb(0, 0, 0.15);
     border-radius: 10px/10px;
   }
-  .courses{
+
+  .courses {
     position: relative;
-    padding:1.2rem 1.2rem 1.2rem 1.2rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
     left: -4rem;
     bottom: 30rem;
     left: 3rem;
     top: 25rem;
-    line-height: .6cm;
+    line-height: 0.6cm;
 
     background-color: #dcbafb;
     margin: 25px 0px; 
-    font-size: .8em;
+    font-size: 0.8em;
     width: 300px;
     min-width: 300px;
     box-shadow: 0 0 20px rgb(0, 0, 0.15);
     border-radius: 10px/10px;
   }
-  .bottom{
+
+  .bottom {
     height: 35rem;
   }
 }
