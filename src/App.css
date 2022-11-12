@@ -16,6 +16,17 @@ h1{
   padding-bottom: 1.2rem;
 }
 
+h2 {
+  padding-top: 2rem;
+  padding-bottom: 0.9rem;
+}
+
+h3{
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  font-weight: 700;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -108,6 +119,43 @@ h1{
     box-shadow: 0 0 20px rgb(0, 0, 0.15);
     border-radius: 10px/10px;
 }
+.courses{
+  position: relative;
+  padding:1.2rem 1.2rem 1.2rem 1.2rem;
+  top: 3rem;
+  left: 7rem;
+  line-height: .6cm;
+
+  
+  
+  background-color: #dcbafb;
+  margin: 25px 0px; 
+  font-size: 1em;
+  width: 650px;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.15);
+  border-radius: 10px/10px;
+}
+
+.connect{
+  position: relative;
+  padding:1.2rem 1.2rem 1.2rem 1.2rem;
+  bottom: 35rem;
+  left: 75rem;
+  line-height: .6cm;
+  text-align: center;
+  
+  
+  background-color: #dcbafb;
+  margin: 25px 0px; 
+  font-size: 1em;
+  width: 350px;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.15);
+  border-radius: 10px/10px;
+
+}
+
 .bottom-site {
     background-color: rgb(115, 36, 234);
 }
@@ -123,6 +171,29 @@ h1{
     background-size: cover;
 }
 
+
+
+/* Scoial Media Icons */
+
+.social-icons{
+  font-size: 86px;
+  color:rgba(18, 91, 248, 0.667);
+  transition: 0.2s;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.social-icons:hover {
+  color: #3333;
+}
+
+
+.bottom{
+  background-color: rgb(115, 36, 234);
+  height: 15rem;
+}
+/* Media changes */
+
 @media (max-width:1150px ) {
   .morph-ball {
       display: none;
@@ -135,6 +206,12 @@ h1{
     left: 55rem;
     bottom: 15rem;
   }
+
+  .connect{
+    position: relative;
+    left: 65rem;
+    bottom: 35rem;
+  }
 }
 
 @media (max-width:1400px ) {
@@ -142,6 +219,12 @@ h1{
     position: relative;
     left: 50rem;
     bottom: 15rem;
+  }
+
+  .connect{
+    position: relative;
+    left: 60rem;
+    bottom: 35rem;
   }
 }
 
@@ -153,7 +236,16 @@ h1{
     width: 420px;
     height: 420px;
   }
+  .connect{
+    position: relative;
+    left: 55rem;
+    bottom: 40rem;
+  }
   .table{
+    width: 550px;
+    min-width: 400px;
+  }
+  .courses{
     width: 550px;
     min-width: 400px;
   }
@@ -168,6 +260,13 @@ h1{
     width: 420px;
     height: 420px;
   }
+  .connect{
+    position: relative;
+    left: 20rem;
+    top: 50rem;
+    width: 450px;
+    min-width: 400px;
+  }
   .table{
     position: relative;
     left: 13rem;
@@ -175,6 +274,18 @@ h1{
 
     width: 450px;
     min-width: 400px;
+  }
+  .courses{
+    position: relative;
+    left: 20rem;
+    top: 40rem;
+
+    width: 450px;
+    min-width: 400px;
+  }
+
+  .bottom{
+    height: 60rem;
   }
 }
 
@@ -187,6 +298,13 @@ h1{
     width: 420px;
     height: 420px;
   }
+  .connect{
+    position: relative;
+    left: 20rem;
+    top: 50rem;
+    width: 450px;
+    min-width: 400px;
+  }
   .table{
     position: relative;
     left: 13rem;
@@ -194,6 +312,17 @@ h1{
 
     width: 450px;
     min-width: 400px;
+  }
+  .courses{
+    left: 20rem;
+    top: 40rem;
+
+    width: 450px;
+    min-width: 400px;
+  }
+
+  .bottom{
+    height: 60rem;
   }
 }
 
@@ -206,6 +335,13 @@ h1{
     width: 420px;
     height: 420px;
   }
+  .connect{
+    position: relative;
+    left: 13rem;
+    top: 50rem;
+    width: 450px;
+    min-width: 400px;
+  }
   .table{
     position: relative;
     left: 7rem;
@@ -213,6 +349,18 @@ h1{
 
     width: 450px;
     min-width: 400px;
+  }
+  .courses{
+    position: relative;
+    left: 13rem;
+    top: 40rem;
+
+    width: 450px;
+    min-width: 400px;
+  }
+
+  .bottom{
+    height: 60rem;
   }
 }
 
@@ -224,6 +372,23 @@ h1{
 
     width: 250px;
     height: 250px;
+  }
+  .connect{
+    position: relative;
+    padding:1.2rem 1.2rem 1.2rem 1.2rem;
+    left: -4rem;
+    bottom: 30rem;
+    left: 3rem;
+    top: 25rem;
+    width: 300px;
+    min-width: 300px;
+  }
+  .social-icons{
+    font-size: 64px;
+    color:rgba(18, 91, 248, 0.667);
+    transition: 0.2s;
+    text-decoration: none;
+    margin: 20px;
   }
   .table{
     position: relative;
@@ -241,48 +406,28 @@ h1{
     box-shadow: 0 0 20px rgb(0, 0, 0.15);
     border-radius: 10px/10px;
   }
+  .courses{
+    position: relative;
+    padding:1.2rem 1.2rem 1.2rem 1.2rem;
+    left: -4rem;
+    bottom: 30rem;
+    left: 3rem;
+    top: 25rem;
+    line-height: .6cm;
+
+    background-color: #dcbafb;
+    margin: 25px 0px; 
+    font-size: .8em;
+    width: 300px;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgb(0, 0, 0.15);
+    border-radius: 10px/10px;
+  }
+  .bottom{
+    height: 35rem;
+  }
 }
 
-
-
-.connect{
-  position: relative;
-  padding:1.2rem 1.2rem 1.2rem 1.2rem;
-  top: 15rem;
-  left: 70rem;
-  line-height: .6cm;
-  
-  
-  background-color: #dcbafb;
-  margin: 25px 0px; 
-  font-size: 1em;
-  width: 650px;
-  min-width: 400px;
-  box-shadow: 0 0 20px rgb(0, 0, 0.15);
-  border-radius: 10px/10px;
-
-}
-
-
-/* Icons */
-
-.social-icons{
-  font-size: 64px;
-  color:rgba(18, 91, 248, 0.667);
-  transition: 0.2s;
-  text-decoration: none;
-  margin: 10px;
-}
-
-.social-icons:hover {
-  color: #3333;
-}
-
-
-.bottom{
-  background-color: rgb(115, 36, 234);
-  height: 50rem;
-}
 
 
 

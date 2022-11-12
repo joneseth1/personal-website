@@ -56,15 +56,51 @@ export default function App() {
             <div className='img-div'></div>
         </div>
 
+
+        <div className='courses'> 
+
+          <h1> Courses and Interests </h1>
+            <p> I have a deep passion for learning, from Math to History and Philosphy. To chase this passion I have taken 
+                a wide varity of courses and I have done a lot of supplemntary learning on my own time. I truly love to learn! 
+                Outside of learning I love to stay active espically if it includes cycling, hiking, or running basically anything outside! 
+            </p>
+          
+            <h3>Intro to Artifical Intelgence:</h3> 
+              <li>
+                I learend a lot about the basics of AI. I learend about heurstic and state space search, 
+                predicate logic, semantic nets, statiscal and probilistic reasoning, etc. This course sparked a deep intrest 
+                in AI for me. This course inspired me to take a CS focused version of Intro to Cognitive Science in Spring 2023, I'm super excited to learn 
+                more about AI and how it relates to the human mind. 
+              </li>
+
+            <h3>Intro to Data Mining: </h3>
+              <li>
+                This was a challenging course since I did not take Linear Alegbra yet but I loved every second of it. This course sparked 
+                  my intrest into anything data related. I learend about topics like Clustering, Graph/Network Analysis, Anomaly Detection, and Predition Models. 
+              </li>
+
+            <h3>Data Structures and Algorithms: </h3>
+              <li>
+                I loved this course!
+                  This course made a lot of topics in CS that were mysterous to me make sense! I learend about stacks, queues, and various data structures. 
+              </li>
+
+            <h3>History Skills Seminor: </h3>
+              <li>
+                This course was mandatory as a Histroy BA. I learend so many writing skills that I know I can apply to my life post-
+                  college. I had a wonderful professor that pushed us to write the best we could.
+              </li>
+        
+        </div>
+        
         <div className='connect'>
           <h1> Connect with me </h1>
-          <a href="#" className="social-icons">
+          <a href="https://www.linkedin.com/in/seth-jones-980242249/" className="social-icons">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
-          <a href="#" className="social-icons">
+          <a href="https://github.com/joneseth1" className="social-icons">
             <ion-icon name="logo-github"></ion-icon>
           </a>
-
         </div>
 
 
